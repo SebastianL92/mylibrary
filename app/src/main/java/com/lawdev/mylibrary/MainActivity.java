@@ -38,8 +38,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             contentTxt.setText("CONTENT: " + scanContent);
         }
         else{
-            Toast toast = Toast.makeText(getApplicationContext(),
-                    "No scan data received!", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "No scan data received!", Toast.LENGTH_SHORT);
             toast.show();
         }
     }

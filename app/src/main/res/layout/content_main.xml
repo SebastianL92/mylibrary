@@ -25,7 +25,7 @@
         android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/scan_button"
-        android:text="Button"/>
+        android:text="Format: "/>
     <TextView
         android:id="@+id/scan_content"
         android:layout_width="wrap_content"
@@ -33,6 +33,6 @@
         android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/scan_format"
-        android:text="Format"/>
+        android:text="Content: "/>
 
 </LinearLayout>
